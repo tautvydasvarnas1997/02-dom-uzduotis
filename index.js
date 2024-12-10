@@ -35,3 +35,13 @@ function pakeisti() {
 function pakeisti2(elementas, tekstas) {
     document.getElementById(elementas).innerHTML = tekstas;
 }
+
+// devintas div
+
+function pakeisti3(elementas, tekstas) {
+    document.getElementById(elementas).innerHTML = tekstas;
+}
+
+function kitaSpalva(elementas, spalva) {
+    document.getElementById(elementas).style.color = spalva;
+}
