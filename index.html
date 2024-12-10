@@ -111,6 +111,26 @@ document.getElementById("dalmuo").innerHTML = pirmas + " / " + antras + " = " + 
 <div id="vienuoliktas">
     <div id="vienuolikto-turinys"></div>
 </div>
+
+<div id="dvyliktas">
+    <p>
+        Spalva:
+        <button onclick="keistiSpalva('dvylikto-tekstas', 'black')">Originali</button>
+        <button onclick="keistiSpalva('dvylikto-tekstas', 'red')">Raudona</button>
+        <button onclick="keistiSpalva('dvylikto-tekstas', 'royalblue')">Melyna</button>
+        <button onclick="keistiSpalva('dvylikto-tekstas', 'green')">Zalia</button>
+    </p>
+    <p>
+        Teksto dydis:
+        <button onclick="keistiDydi('dvylikto-tekstas', 16)">Originalus</button>
+        <button onclick="keistiDydi('dvylikto-tekstas', 18)">18px</button>
+        <button onclick="keistiDydi('dvylikto-tekstas', 24)">24px</button>
+        <button onclick="keistiDydi('dvylikto-tekstas', 12)">12px</button>
+    </p>
+    <p id="dvylikto-tekstas">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, iure?
+    </p>
+</div>
     
     <script src="index.js"></script>
 </body>

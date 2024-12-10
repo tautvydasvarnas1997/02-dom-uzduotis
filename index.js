@@ -72,3 +72,13 @@ let isvedimui = `<p>${pirmas} + ${antras} = ${pirmas + antras}</p>
                  <p>${pirmas} / ${antras} = ${pirmas / antras}</p>`;
 
 document.getElementById('vienuoliktas').innerHTML = isvedimui;
+
+// dvyliktas div
+
+function keistiSpalva(elementas, spalva) {
+    document.getElementById(elementas).style.color = spalva;
+}
+
+function keistiDydi(elementas, dydis) {
+    document.getElementById(elementas).style.fontSize = dydis + 'px';
+}
