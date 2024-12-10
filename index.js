@@ -29,3 +29,9 @@ console.log();
 function pakeisti() {
     document.getElementById("septinto-tekstas").innerHTML = "naujas tekstas";
 }
+
+// astuntas div
+
+function pakeisti2(elementas, tekstas) {
+    document.getElementById(elementas).innerHTML = tekstas;
+}
