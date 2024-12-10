@@ -23,3 +23,9 @@ console.log('innerHTML turinys:', document.getElementById('trecias').innerHTML);
 console.log('innerText turinys:', document.getElementById('trecias').innerText);
 
 console.log();
+
+// septintas div
+
+function pakeisti() {
+    document.getElementById("septinto-tekstas").innerHTML = "naujas tekstas";
+}
